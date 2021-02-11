@@ -102,7 +102,7 @@
     "eslint": "^4.18.2",
     "fastclick": "^1.0.6",
     "http-server": "^0.11.1",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "node-sass": "^4.1.1",
     "node-sass-glob": "^1.0.4",
     "npm-run-all": "^3.1.2",
@@ -124,7 +124,7 @@
   },
   "dependencies": {
     "featherlight": "^1.7.9",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "minimatch": "^3.0.2",
     "owl.carousel": "^2.2.0",
     "scrolltofixed": "Grawl/ScrollToFixed",
