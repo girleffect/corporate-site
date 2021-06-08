@@ -2,7 +2,7 @@ django==1.11.29
 wagtail==1.13.1
 psycopg2==2.7
 django-redis==4.10.0
-Pillow==6.2.0
+Pillow==8.2.0
 django-extensions==1.7.4
 Werkzeug==0.15.3
 django-template-debug==0.3.5
