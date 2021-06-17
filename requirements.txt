@@ -1,5 +1,5 @@
 django==1.11.29
-wagtail==1.13.1
+wagtail==2.11.8
 psycopg2==2.7
 django-redis==4.10.0
 Pillow==6.2.0
