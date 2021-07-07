@@ -48,7 +48,7 @@ class HomePage(Page, HeroVideoFields, SocialFields):
 
     @cached_property
     def articles(self):
-        all_articles = ArticlePage.objects.all().live().public().order_by('-publication_date')
+        all_articles = ArticlePage.objects.in_site(self.get_site()).live().public().order_by('-publication_date')
         if self.featured_article_id:
             all_articles = all_articles.exclude(pk=self.featured_article_id)
         return all_articles[:6]
